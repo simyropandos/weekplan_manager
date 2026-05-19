@@ -1,0 +1,12 @@
+[project]
+name = "weekplan-manager"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "fastapi>=0.136.1",
+    "fastapi-users[sqlalchemy]>=15.0.5",
+    "uvicorn[standart]>=0.47.0",
+]
